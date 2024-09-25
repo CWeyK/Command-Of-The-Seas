@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1300.0" styleClass="background" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CommandOfTheSeas.view.Tutorial3Controller">
+    <children>
+        <AnchorPane prefHeight="900.0" prefWidth="1300.0" styleClass="overlay" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Button layoutX="960.0" layoutY="720.0" mnemonicParsing="false" onAction="#next" prefHeight="50.0" prefWidth="200.0" styleClass="menuButton" text="Next" />
+                <Button layoutX="162.0" layoutY="720.0" mnemonicParsing="false" onAction="#previous" prefHeight="50.0" prefWidth="200.0" styleClass="menuButton" text="Previous" />
+                <Text fill="WHITE" layoutX="453.0" layoutY="120.0" styleClass="header" text="Attacking And Moving" textAlignment="CENTER" wrappingWidth="393.6708984375" />
+            <Text fill="WHITE" layoutX="199.0" layoutY="258.0"  styleClass="tutorial" text="Both players get 2 actions on their turn. Both attacking and moving units uses up 1 action. Players can use their units to attack or move by clicking on the desired unit, then clicking on the move or attack button followed by the piece they want to attack or the grid they wish to move to. You cannot move to a grid that is already occupied and you cannot attack a friendly target." textAlignment="CENTER" wrappingWidth="891.6708984375" />
+                <Text fill="WHITE" layoutX="199.0" layoutY="500.0"  styleClass="tutorial" text="The damage you deal to a ship is subtracted from their health and when the health reaches 0, the unit is destroyed. You can only attack as far as your range allows you to. Movement is the same where you are limited by your speed. 1 range/speed = 1 tile horizontally/vertically" textAlignment="CENTER" wrappingWidth="891.6708984375" />
+            </children></AnchorPane>
+    </children>
+</AnchorPane>

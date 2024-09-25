@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1300.0" styleClass="background" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CommandOfTheSeas.view.Tutorial1Controller">
+    <children>
+        <AnchorPane prefHeight="900.0" prefWidth="1300.0" styleClass="overlay" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Button layoutX="960.0" layoutY="720.0" mnemonicParsing="false" onAction="#next" prefHeight="50.0" prefWidth="200.0" styleClass="menuButton" text="Next" />
+                <Button layoutX="162.0" layoutY="720.0" mnemonicParsing="false" onAction="#menu" prefHeight="50.0" prefWidth="200.0" styleClass="menuButton" text="Menu" />
+                <Text fill="WHITE" layoutX="453.0" layoutY="120.0"  styleClass="header" text="Tutorial" textAlignment="CENTER" wrappingWidth="393.6708984375" />
+            <Text fill="WHITE" layoutX="199.0" layoutY="258.0"  styleClass="tutorial" text="Welcome to Command Of The Seas, this is a 2 player game where both players fight to secure victory on a board consisting of different ships. Your goal is to annihilate the enemy fleet by using strategically positioning your ships and launching attacks on the enemy fleet" textAlignment="CENTER" wrappingWidth="891.6708984375" />
+            </children></AnchorPane>
+    </children>
+</AnchorPane>

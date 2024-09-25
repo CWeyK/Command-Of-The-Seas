@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap);
+
+.background {
+    -fx-background-image: url('/CommandOfTheSeas/images/714746.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.overlay{
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*.gridPane{*/
+/*    -fx-grid-lines-visible: true;*/
+/*    -fx-border-color: black;*/
+/*    -fx-border-width: 1;*/
+/*}*/
+
+
+.menuButton {
+    -fx-font-family: "Orbitron", sans-serif;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #003366;
+    -fx-background-radius: 5;
+    -fx-border-color: #001a33;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+}
+
+.menuButton:hover {
+    -fx-background-color: #004080;
+}
+
+.menuButton:pressed {
+    -fx-background-color: #00264d;
+}
+.header {
+    -fx-font-family: "Orbitron", sans-serif;
+    -fx-font-size: 36pt;
+    -fx-font-weight: bold;
+}
+
+.tutorial {
+    -fx-font-family: "Orbitron", sans-serif;
+    -fx-font-size: 18pt;
+    -fx-font-weight: bold;
+}
+
+.tutorial2Text {
+    -fx-font-family: "Orbitron", sans-serif;
+    -fx-font-weight: bold;
+}
+
+.moveButton {
+    -fx-font-family: "Orbitron", sans-serif;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #28a745;
+    -fx-background-radius: 5;
+    -fx-border-color: #1e7e34;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+}
+
+.moveButton:hover {
+    -fx-background-color: #218838;
+    -fx-border-color: #1c7430;
+}
+
+.moveButton:pressed {
+    -fx-background-color: #155724;
+    -fx-border-color: #0b2e13;
+}
+
+
+.attackButton {
+    -fx-font-family: "Orbitron", sans-serif;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #b30000;
+    -fx-background-radius: 5;
+    -fx-border-color: #800000;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+}
+
+.attackButton:hover {
+    -fx-background-color: #cc0000;
+    -fx-border-color: #990000;
+}
+
+.attackButton:pressed {
+    -fx-background-color: #660000;
+    -fx-border-color: #330000;
+}
+
+
+.controlPanel{
+    -fx-background-color: #2a2a2a;
+    -fx-border-color: #4f4f4f;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0);
+}
+
+.turnText   {
+    -fx-font-family: "Orbitron", sans-serif;
+    -fx-font-size: 24px;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 5 0 5 0;
+}
+
+.actionText   {
+    -fx-font-family: "Orbitron", sans-serif;
+    -fx-font-size: 16px;
+    -fx-padding: 5 0 5 0;
+}
+
+.statText{
+    -fx-font-family: "Orbitron", sans-serif;
+    -fx-font-size: 16px;
+    -fx-padding: 5 0 5 0;
+    -fx-font-weight: bold;
+}
+
+.statusText{
+    -fx-font-family: "Orbitron", sans-serif;
+    -fx-font-size: 20px;
+    -fx-padding: 5 0 5 0;
+    -fx-font-weight: bold;
+}
+
+

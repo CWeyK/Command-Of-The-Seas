@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1300.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CommandOfTheSeas.view.Tutorial2Controller">
+    <children>
+        <AnchorPane prefHeight="900.0" prefWidth="1300.0" styleClass="overlay" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Button layoutX="960.0" layoutY="720.0" mnemonicParsing="false" onAction="#next" prefHeight="50.0" prefWidth="200.0" styleClass="menuButton" text="Next" />
+                <Button layoutX="162.0" layoutY="720.0" mnemonicParsing="false" onAction="#previous" prefHeight="50.0" prefWidth="200.0" styleClass="menuButton" text="Previous" />
+                <Text fill="WHITE" layoutX="453.0" layoutY="120.0" styleClass="header" text="Ships" textAlignment="CENTER" wrappingWidth="393.6708984375" />
+            <Text fill="WHITE" layoutX="150.0" layoutY="165.0" styleClass="tutorial" text="There are multiple ship types at the player's disposal, it is up to the player to determine how best to utilize their ships and exploit their advantages and weaknesses" textAlignment="CENTER" wrappingWidth="1000" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="162.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/ShipCarrier1.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="323.0" layoutY="260.0" styleClass="tutorial2Text" text="Carrier: The backbone of the fleet, it boasts superior firepower but lacks mobility and health." wrappingWidth="250.0" />
+            <Text fill="WHITE" layoutX="323.0" layoutY="359.0" styleClass="tutorial2Text" text="Health = 125  Range = 4  Damage = 75  Speed = 1" wrappingWidth="250.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="157.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ShipBattleshipHull1.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="318.0" layoutY="466.0" styleClass="tutorial2Text" text="Battleship: A heavy hitter and brawler that has good firepower and health." wrappingWidth="250.0" />
+      <Text fill="WHITE" layoutX="318.0" layoutY="565.0" styleClass="tutorial2Text" text="Health = 200  Range = 3  Damage = 75  Speed = 1" wrappingWidth="250.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="745.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ShipCruiser1.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="906.0" layoutY="260.0" styleClass="tutorial2Text" text="Cruiser: A jack-of-all trades unit that can excel in any role." wrappingWidth="250.0" />
+      <Text fill="WHITE" layoutX="906.0" layoutY="359.0" styleClass="tutorial2Text" text="Health = 150  Range = 3  Damage = 40  Speed = 2" wrappingWidth="250.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="745.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ShipDestroyer1.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="906.0" layoutY="466.0" styleClass="tutorial2Text" text="Destroyer: A lighter variant of the cruiser that sports less firepower but higher mobility" wrappingWidth="250.0" />
+      <Text fill="WHITE" layoutX="906.0" layoutY="565.0" styleClass="tutorial2Text" text="Health = 50  Range = 2  Damage = 30  Speed = 3" wrappingWidth="250.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="444.0" layoutY="670.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ShipPatrol1.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="605.0" layoutY="686.0" styleClass="tutorial2Text" text="Patrol boat: A lightweight vessel meant to serve as a distraction and cause chaos." wrappingWidth="250.0" />
+      <Text fill="WHITE" layoutX="605.0" layoutY="785.0" styleClass="tutorial2Text" text="Health = 25  Range = 1,  Damage = 15,  Speed = 4" wrappingWidth="250.0" />
+    </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

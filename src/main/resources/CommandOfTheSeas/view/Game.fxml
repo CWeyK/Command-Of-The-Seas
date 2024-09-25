@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1300.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CommandOfTheSeas.view.GameController">
+   <children>
+      <AnchorPane layoutX="-49.0" layoutY="-37.0" prefHeight="900.0" prefWidth="1300.0" styleClass="overlay" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane layoutX="819.0" layoutY="95.0" prefHeight="711.0" prefWidth="423.0" styleClass="controlPanel">
+               <children>
+                  <Button layoutX="67.0" layoutY="620.0" minHeight="-Infinity" minWidth="100.0" mnemonicParsing="false" onAction="#onMoveButtonClicked" styleClass="moveButton" text="Move" />
+                  <Button layoutX="254.0" layoutY="620.0" minWidth="100.0" mnemonicParsing="false" onAction="#onAttackButtonClicked" styleClass="attackButton" text="Attack" />
+                  <Text fx:id="actionText" fill="WHITE" layoutX="28.0" layoutY="96.0"  styleClass="actionText" text="Actions left:" />
+                  <Text fx:id="turnText" fill="WHITE" layoutX="28.0" layoutY="42.0"  styleClass="turnText" text="Player 1's Turn" />
+                  <Text fx:id="detailLabel" fill="LIGHTGRAY" layoutX="25.0" layoutY="415.0"  styleClass="statusText" text="Status:" wrappingWidth="350.0" />
+                  <Text fx:id="healthText" fill="#cd4e4e" layoutX="25.0" layoutY="210.0"  styleClass="statText" text="Health:" wrappingWidth="169.00000429153442" />
+                  <Text fx:id="damageText" fill="#3040cd" layoutX="25.0" layoutY="250.0"  styleClass="statText" text="Damage:" wrappingWidth="169.0000131726265" />
+                  <Text fx:id="speedText" fill="#bc8516" layoutX="25.0" layoutY="290.0"  styleClass="statText" text="Speed:" wrappingWidth="169.0000131726265" />
+                  <Text fx:id="rangeText" fill="#58904d" layoutX="25.0" layoutY="330.0"  styleClass="statText" text="Range:" wrappingWidth="169.0000131726265" />
+                  <Text fx:id="positionText" fill="#347fd0" layoutX="25.0" layoutY="370.0"  styleClass="statText" text="Current position:" wrappingWidth="279.0000131726265" />
+                  <Text fx:id="shipText" fill="SEAGREEN" layoutX="25.0" layoutY="170.0"  styleClass="statText" text="Ship Type:" wrappingWidth="355.0000042915344" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <GridPane fx:id="gridPane" layoutX="93.0" layoutY="95.0" prefHeight="711.0" prefWidth="682.0" styleClass="gridPane">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+   </children>
+</AnchorPane>
